@@ -40,7 +40,7 @@ Modifier le fichier rules.d/99-arduino.rules:
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="2341", ATTRS{iSerial}=="64932343638351813201", SYMLINK+="arduino1"
 ```
 
-Placer le fichier 99-arduino.rules dans /etc/udev/rules.d
+Placer le fichier 99-arduino.rules dans /etc/udev/rules.d et redémarrer la raspberry
 
 - Dans le fichier send_to_domoticz.py
 ```
